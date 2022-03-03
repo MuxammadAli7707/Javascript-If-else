@@ -220,9 +220,21 @@
 // }
 // console.log(count);
 
-n = 3;
-for(i = 1; i <= n; i++) {
-  for(j = 1; j <= n; j++){
-    console.log(n + i);
-  }
+// n = 3;
+// for(i = 1; i <= n; i++) {
+//   for(j = 1; j <= n; j++){
+//     console.log(n + i);
+//   }
+// }
+
+// FizzBuzz
+
+let a = 25;
+
+if(a % 3 == 0 && a % 5 == 0) {
+  console.log("FizzBuzz");
+} else if (a % 3 == 0) {
+  console.log("Fizz");
+} else {
+  console.log("Buzz");
 }
